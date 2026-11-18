@@ -1,5 +1,3 @@
-# WeirdLudo
-
 <div align="center">
 
 <img src="docs/logo.png" width="300" alt="Weird Ludo">
