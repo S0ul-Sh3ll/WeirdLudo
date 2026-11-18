@@ -9,8 +9,6 @@ Play people online, friends on the same WiFi, or the computer on your own. No ac
 <a href="https://play.google.com/store/apps/details?id=com.rd.weirdludo"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="220" alt="Get it on Google Play"></a>
 
 ![Android 7.0+](https://img.shields.io/badge/Android-7.0%2B-3ddc84?logo=android&logoColor=white)
-![macOS](https://img.shields.io/badge/macOS-Apple_Silicon_%2B_Intel-000000?logo=apple&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-64--bit-0078d4)
 ![Online](https://img.shields.io/badge/play-online_%C2%B7_WiFi_%C2%B7_solo-ffd23f)
 ![Players](https://img.shields.io/badge/players-2--4_%C2%B7_2v2_teams-ff4fa3)
 ![Fair dice](https://img.shields.io/badge/dice-crypto_random-2ec4ff)
@@ -124,7 +122,6 @@ Everyone needs to be on the **same WiFi network or the host's phone hotspot**. N
 - While someone is away, the computer plays their turns when their timer runs out, and everyone sees who left and who's back.
 - After a game, **Rematch** reopens the same room, so nobody types the code again.
 - **Join by IP** is there for networks that block discovery.
-- Android, macOS and Windows use the same network protocol, so they can share a room.
 
 ## More to love
 
@@ -142,12 +139,10 @@ test. Nobody can fake a roll: **online, the game server rolls** for everyone; in
 
 ## Download
 
-| Platform | Where | Notes |
+| | Where | Notes |
 |---|---|---|
-| **Android 7.0+** | **[Google Play](https://play.google.com/store/apps/details?id=com.rd.weirdludo)** | Recommended. Updates automatically |
-| Android 7.0+ (64-bit) | `WeirdLudo-<version>.apk` from **[Releases](../../releases)** | Allow installing from this source when asked |
-| macOS 11+ (Apple Silicon and Intel) | `WeirdLudo-macOS.dmg` from **[Releases](../../releases)** | First launch: right-click the app → **Open** |
-| Windows 10/11 (64-bit) | `WeirdLudo-Windows.zip` from **[Releases](../../releases)** | Unzip and run `WeirdLudo.exe`. If SmartScreen appears: **More info → Run anyway** |
+| **Google Play** (Android 7.0+) | **[Google Play](https://play.google.com/store/apps/details?id=com.rd.weirdludo)** | Recommended. Updates automatically |
+| APK (Android 7.0+, 64-bit) | `WeirdLudo-<version>.apk` from **[Releases](../../releases)** | Allow installing from this source when asked |
 
 > Online play needs the latest version. Everyone in a WiFi game should use the **same version** of the app.
 >
@@ -157,7 +152,7 @@ test. Nobody can fake a roll: **online, the game server rolls** for everyone; in
 
 No accounts. Your profile and stats stay on your device. WiFi games talk only to the other devices on your local
 network. Online games go to our game server, which keeps your player name and moves **only in memory** while you
-play and never writes them to disk. The Android version shows banner ads from Google AdMob.
+play and never writes them to disk. The app shows banner ads from Google AdMob.
 Full details: **[Privacy Policy](Privacy-Policy.md)**.
 
 ## Credits
@@ -167,7 +162,7 @@ Made by **Rishabh Dahiya** · contact: rishabhdahiya.work@gmail.com
 - Built with **[Godot Engine](https://godotengine.org)** 4.7 (MIT)
 - Dice sounds: **[Casino Audio](https://kenney.nl/assets/casino-audio)** by Kenney (CC0)
 - Characters, items and artwork created with Qwen-Image; announcer voice with Qwen3-TTS; music with ACE-Step
-- Ads by Google AdMob (Android only)
+- Ads by Google AdMob
 
 Google Play and the Google Play logo are trademarks of Google LLC.
 
